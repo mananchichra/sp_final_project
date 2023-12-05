@@ -1,4 +1,4 @@
-function audio = loadAudioFile(filename)
-    audio = audioread(filename);
+function [audio,fs] = loadAudioFile(filename)
+    [audio,fs] = audioread(filename);
 end
     
